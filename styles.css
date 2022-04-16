@@ -157,15 +157,18 @@ button:hover {
 
 /* mobile view */
 
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 560px) {
 
   body {
     font-size: 0.95rem;
+    background: var(--paleblue);
+    /* min-height: 100vh; */
   }
 
   .main {
     width: 375px;
     height: 709px;
+    background: var(--paleblue);
   }
 
   .container {
